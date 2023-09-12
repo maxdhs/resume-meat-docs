@@ -1,7 +1,7 @@
-# New Phone Who's This API Documentation
+# Resume Meat API Documentation
 
 ```js
-const API = "https://new-phone-whos-this-backend.onrender.com";
+const API = "https://resume-meat-backend.onrender.com";
 ```
 
 ## POST /users/register
@@ -13,7 +13,7 @@ fetch(`${API}/users/register`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
-    email: "santa@gmail.com",
+    username: "santa",
     password: "pass123@",
   }),
 });
@@ -37,7 +37,7 @@ fetch(`${API}/users/login`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
-    email: "santa@gmail.com",
+    username: "santa",
     password: "pass123@",
   }),
 });
