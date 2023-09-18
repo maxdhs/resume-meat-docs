@@ -70,6 +70,9 @@ fetch(`${API}/users/token`, {
 ```js
 {
   "success": true,
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmI2MzBlMS03M2QwLTQyNTEtOTk4Yi05MjcxMjdkZDY3NzQiLCJpYXQiOjE2OTM3NDIyNTJ9.7VR0kSb1amUmcP9iGhqfTIiuM9L5XSZPojkxM1Xg_W8"
+ "user": {
+"id":"osdifjosi3242342",
+"username":"ryan12"
+}
 }
 ```
